@@ -64,7 +64,6 @@ function windowResized() {
 function draw() {
   if (!isMobile.any()) {
     //   background(240, 245, 0, 100);
-    ellipse(mouseX, mouseY, 15, 15);
 
     if (sphereArr.length > 0) {
       for (let i = 0; i < sphereArr.length; i++) {
@@ -86,7 +85,11 @@ function draw() {
       // console.log("new pushed");
       sphereArr.push(new Sphere(random(width), random(height)));
     }
+    if (time % 15 == 0) {
+      background(240, 245, 249, 70);
+    }
     background(240, 245, 249, 25);
+    ellipse(mouseX, mouseY, 15, 15);
     time += 1;
   }
 }
