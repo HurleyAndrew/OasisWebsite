@@ -1,6 +1,7 @@
 let sphereArr = [];
 let sphereCount = 50;
 let time = 0;
+let c;
 var isMobile = {
   Android: function() {
     return navigator.userAgent.match(/Android/i) ? true : false;
@@ -33,6 +34,7 @@ function setup() {
   //   console.log(height);
   //   console.log(y);
   cnv.position(x, 0);
+  c = color("#F0F5F9");
   //   background(255, 0, 200);
   //   for (let i = 0; i < sphereCount; i++) {
   //     sphereArr.push(new Sphere(mouseX, mouseY));
@@ -41,7 +43,7 @@ function setup() {
   //     sphereArr[i].display();
   //   }
   noStroke();
-  let c = color("#F0F5F9");
+
   //   fill(c);
   //   rect(0, 0, document.body.clientWidth, document.body.clientHeight);
   background(c, 100);
@@ -84,7 +86,7 @@ function draw() {
       // console.log("new pushed");
       sphereArr.push(new Sphere(random(width), random(height)));
     }
-    background(c, 10);
+    background(240, 245, 249, 25);
     time += 1;
   }
 }
