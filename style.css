@@ -435,6 +435,29 @@ a {
   }
 }
 @media only screen and (max-width: 550px) {
+  canvas {
+    display: none;
+  }
+  .heroImage {
+    background-image: url("assets/heroImages/mobileHero.jpg");
+    background-size: cover;
+    background-position-x: center;
+  }
+  .heroLogoLayer {
+    display: none;
+  }
+  .heroForeground {
+    display: none;
+  }
+  .heroMidground {
+    display: none;
+  }
+  .heroBackground {
+    display: none;
+  }
+  .fullWidthHero {
+    display: none;
+  }
   .wrapper {
     max-width: 375px;
     /* min-width: 300px; */
@@ -453,7 +476,7 @@ a {
 
 @media only screen and (max-width: 400px) {
   .wrapper {
-    max-width: 325px;
+    max-width: 300px;
     /* min-width: 300px; */
   }
   .textHeadline {
@@ -461,7 +484,7 @@ a {
     line-height: 5.5rem;
   }
   .memberImage {
-    width: 150px;
+    width: 135px;
   }
   .textParagraph {
     font-size: 2rem;
