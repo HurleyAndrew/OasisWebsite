@@ -30,10 +30,11 @@ function draw() {
   background(255, 255, 255, 5);
   fill(100, 45, 67, inData / 10);
   // push();
-  // serial.readString()
+  // serial.readStringUntil("/n");
+
   ellipse(width / 2, height / 2, inData * 1.5, inData * 1.5);
   // pop();
-  // console.log(serial.readString());
+  console.log(inData);
   // text("BRIGHTNESS LEVEL: " + inData, 30, 50); // displaying the input
 
   //
@@ -79,7 +80,8 @@ function portOpen() {
 }
 
 function serialEvent() {
-  inData = Number(serial.read());
+  // inData = Number(serial.read());
+  inData = serial.readStringUntil("\n");
   // inData = serial.readString();
 }
 
