@@ -3,7 +3,7 @@ var scl = 20;
 var cols;
 var rows;
 var zoff = 0;
-var particleObject = 7000;
+var particleObejct = 7000;
 var particles = [];
 var flowField;
 function setup() {
@@ -13,12 +13,12 @@ function setup() {
   cols = floor(width / scl);
   rows = floor(height / scl);
   flowField = new Array(cols * rows);
-  for (var i = 0; i < particleObject; i++) {
+  for (var i = 0; i < particleObejct; i++) {
     particles[i] = new Particle();
   }
 }
 function draw() {
-  background(color("rgba(232, 237, 244, .1)"));
+  // background(color("rgba(232, 237, 244, .05)"));
   beginShape();
   var yoff = 0;
   for (var y = 0; y < rows; y++) {
