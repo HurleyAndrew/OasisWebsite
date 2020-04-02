@@ -1,8 +1,3 @@
-// let song1;
-// let song2;
-// let song1Live = false;
-// let song2Live = false;
-
 let musicFile, amplitude, fft;
 
 let tapperButtonArr = [];
@@ -12,34 +7,43 @@ let cnv;
 
 let menu;
 
+// Arrows
+let upArrowImg;
+let downArrowImg;
+let leftArrowImg;
+let rightArrowImg;
+
 function preload() {
   // musicFile1 = loadSound("bensound-happyrock.mp3");
   // musicFile2 = loadSound("bensound-memories.mp3");
   musicFile = loadSound("catempire.mp3");
+  upArrowImg = loadImage("upArrow.png");
+  downArrowImg = loadImage("downArrow.png");
+  leftArrowImg = loadImage("leftArrow.png");
+  rightArrowImg = loadImage("rightArrow.png");
 }
 
 function setup() {
-  fft = new p5.FFT();
-
   cnv = createCanvas(windowWidth, windowHeight);
 
-  background(255);
-  musicFile.setVolume(0.1);
+  musicFile.setVolume(0.2);
   amplitude = new p5.Amplitude();
   //   Setup tap buttons
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 4; i++) {
     tapperButtonArr.push(
-      new tapperButton(95 * i + 120, windowHeight - 50, 70, random(1, 360), i)
+      new tapperButton(
+        100,
+        i * 110 + (height / 2 - 3 * 90 + 90),
+        90,
+        random(1, 360),
+        i
+      )
     );
   }
-
   menu = new Menu();
-
   //   analyze sounds and create tap target at certain points to be used in draw function
   // tapTarget(yStart,yEnd,targetRail,timing,alive);
-
   //   Lets try analyzing the song and dividing it into parts before load then print it on draw
-  fft = new p5.FFT();
 }
 
 let time = 0;
@@ -49,6 +53,11 @@ let waitingForStart = true;
 let timerPlayed = false;
 let stutter = 20;
 function draw() {
+  push();
+  fill(color("#0A0E80"));
+  rect(0, 0, width, height);
+  blendMode(DIFFERENCE);
+
   if (menu.isOpen) {
     menu.display();
     if (menu.isOverlapping(mouseX, mouseY) && mouseIsPressed) {
@@ -60,30 +69,9 @@ function draw() {
       musicFile.play();
       timerPlayed = true;
     }
-    let spectrum = fft.analyze();
-    let bass, lowMid, mid, highMid, treble;
-
-    bass = fft.getEnergy("bass");
-    lowMid = fft.getEnergy("lowMid");
-    mid = fft.getEnergy("mid");
-    highMid = fft.getEnergy("highMid");
-    treble = fft.getEnergy("treble");
-
-    console.log(
-      "Bass: " +
-        bass +
-        " lowMid: " +
-        lowMid +
-        " mid: " +
-        mid +
-        " highMid: " +
-        highMid +
-        " treble: " +
-        treble
-    );
 
     //   Get amplitude levels
-    background(255, 255, 255, 34);
+    // background(255, 255, 255, 34);
 
     let level = amplitude.getLevel();
     let size = map(level, 0, 1, 0, 2000);
@@ -92,35 +80,24 @@ function draw() {
     if (time % 40 == 0) {
       stutter = floor(random(20, 30));
     }
-    // Bass: 0 lowMid: 9.583333333333334 mid: 35.357894736842105 highMid: 17.491071428571427 treble: 0.550531914893617
+
     if (time % stutter == 0) {
-      if (bass > 130) {
+      if (level >= 0.05 && level < 0.07) {
         // constructor(yStart,yEnd,targetRail,timing,alive)
         tapTargetArr.push(new tapTarget(0, 0, 0, 0, true, level));
-      }
-
-      if (lowMid > 100) {
+        // ellipse(50, height - 150, size, size);
+      } else if (level >= 0.035 && level < 0.05) {
+        // constructor(yStart,yEnd,targetRail,timing,alive)
         tapTargetArr.push(new tapTarget(0, 0, 1, 0, true, level));
-      }
-
-      if (mid > 110) {
+        // ellipse(50, height - 150, size, size);
+      } else if (level >= 0.02 && level < 0.035) {
         tapTargetArr.push(new tapTarget(0, 0, 2, 0, true, level));
+        // ellipse(150, height - 150, size, size);
+      } else if (level >= 0.001 && level < 0.02) {
+        tapTargetArr.push(new tapTarget(0, 0, 3, 0, true, level));
+        // ellipse(250, height - 150, size, size);
       }
     }
-
-    // if (time % stutter == 0) {
-    //   if (level >= 0.035 && level < 0.05) {
-    //     // constructor(yStart,yEnd,targetRail,timing,alive)
-    //     tapTargetArr.push(new tapTarget(0, 0, 0, 0, true, level));
-    //     // ellipse(50, height - 150, size, size);
-    //   } else if (level >= 0.02 && level < 0.035) {
-    //     tapTargetArr.push(new tapTarget(0, 0, 1, 0, true, level));
-    //     // ellipse(150, height - 150, size, size);
-    //   } else if (level >= 0.001 && level < 0.02) {
-    //     tapTargetArr.push(new tapTarget(0, 0, 2, 0, true, level));
-    //     // ellipse(250, height - 150, size, size);
-    //   }
-    // }
 
     for (let i = 0; i < tapperButtonArr.length; i++) {
       tapperButtonArr[i].update();
@@ -140,6 +117,8 @@ function draw() {
     displayScore(score);
     time += 1;
   }
+
+  pop();
 }
 function displayScore() {
   push();
@@ -165,21 +144,27 @@ function keyPressed() {
           tapTargetArr[j].yPos
         )
       ) {
-        if (keyCode === LEFT_ARROW && tapTargetArr[j].targetRail == 0) {
+        if (keyCode === RIGHT_ARROW && tapTargetArr[j].targetRail == 0) {
           tapTargetArr.splice(j, 1);
           tapperButtonArr[i].isTapped();
 
           score += 10;
         }
 
-        if (keyCode === DOWN_ARROW && tapTargetArr[j].targetRail == 1) {
+        if (keyCode === UP_ARROW && tapTargetArr[j].targetRail == 1) {
           tapTargetArr.splice(j, 1);
           tapperButtonArr[i].isTapped();
 
           score += 10;
         }
 
-        if (keyCode === RIGHT_ARROW && tapTargetArr[j].targetRail == 2) {
+        if (keyCode === LEFT_ARROW && tapTargetArr[j].targetRail == 2) {
+          tapTargetArr.splice(j, 1);
+          tapperButtonArr[i].isTapped();
+
+          score += 10;
+        }
+        if (keyCode === DOWN_ARROW && tapTargetArr[j].targetRail == 2) {
           tapTargetArr.splice(j, 1);
           tapperButtonArr[i].isTapped();
 
@@ -222,35 +207,7 @@ function mousePressed() {
     }
   }
 }
-function touchStarted() {
-  if (getAudioContext().state !== "running") {
-    getAudioContext().resume();
-  }
-  // rect(width / 2, height / 2, 50, 50);
 
-  // console.log("mouse pressed");
-  // Check over each note with each button
-  for (let i = 0; i < tapperButtonArr.length; i++) {
-    for (let j = 0; j < tapTargetArr.length; j++) {
-      // console.log("hello")
-      if (
-        tapperButtonArr[i].isOverlapping(
-          tapTargetArr[j].xPos,
-          tapTargetArr[j].yPos
-        )
-      ) {
-        if (tapperButtonArr[i].isOverlapping(mouseX, mouseY)) {
-          tapTargetArr.splice(j, 1);
-          tapperButtonArr[i].isTapped();
-          // console.log(
-          //   "overlapped and mouse pressed" + tapTargetArr[j].targetRail
-          // );
-          score += 10;
-        }
-      }
-    }
-  }
-}
 /*
 ToDo:
 - Analyze song

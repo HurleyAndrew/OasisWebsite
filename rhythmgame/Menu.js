@@ -34,6 +34,7 @@ class Menu {
     fill(0);
     rectMode(CENTER);
     rect(this.xPos, this.yPos, this.size, this.size);
+
     pop();
   }
 }
