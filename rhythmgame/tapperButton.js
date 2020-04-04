@@ -7,14 +7,16 @@ class tapperButton {
     this.railID = railID;
     this.tapped = false;
     this.image;
+
+    this.distScore;
     if (this.railID == 0) {
-      this.image = rightArrowImg;
+      this.image = rightControl;
     } else if (this.railID == 1) {
-      this.image = upArrowImg;
+      this.image = upControl;
     } else if (this.railID == 2) {
-      this.image = leftArrowImg;
+      this.image = leftControl;
     } else if (this.railID == 3) {
-      this.image = downArrowImg;
+      this.image = downControl;
     }
   }
 
@@ -25,19 +27,23 @@ class tapperButton {
       y < this.yPos + this.size + 20 &&
       y > this.yPos - this.size - 20
     ) {
-      var dist = Math.sqrt(
+      this.distScore = Math.sqrt(
         Math.pow(this.xPos - x, 2) + Math.pow(this.yPos - y, 2)
       );
-      score += dist;
-      console.log(dist);
+
+      this.distScore = 100 - this.distScore;
+
       return true;
     } else {
       return false;
     }
   }
-
+  getScore() {
+    return this.distScore;
+  }
   isTapped() {
     this.tapped = true;
+    return true;
   }
 
   update() {}
@@ -45,18 +51,20 @@ class tapperButton {
   display() {
     push();
     if (this.tapped) {
-      this.size += 5;
+      this.size += 2;
+      this.displayScore();
       if (this.size >= 85) {
         this.tapped = false;
       }
     }
 
     if (this.tapped == false) {
-      this.size -= 5;
+      this.size -= 2;
       if (this.size <= 70) {
         this.size = 70;
       }
     }
+
     // strokeWeight(5);
     // colorMode(HSB, 360, 100, 100);
     // fill(50, 100, 54);
@@ -65,5 +73,38 @@ class tapperButton {
     // ellipse(this.xPos, this.yPos, this.size, this.size);
     image(this.image, this.xPos, this.yPos, this.size, this.size);
     pop();
+  }
+
+  displayScore() {
+    fill(255);
+    strokeWeight(3);
+    stroke(color("#1C94D8"));
+    textFont(rubik);
+    textSize(16);
+    textAlign(CENTER);
+    let scoreTxt;
+    if (this.distScore >= 90) {
+      stroke(color("#B21CD8"));
+      scoreTxt = "Perfect";
+      perfectCounter += 1;
+    } else if (this.distScore >= 80 && this.distScore < 90) {
+      stroke(color("#2DD212"));
+      scoreTxt = "Great";
+      greatCounter += 1;
+    } else if (this.distScore >= 60 && this.distScore < 80) {
+      stroke(color("#1299D2"));
+      scoreTxt = "Good";
+      goodCounter += 1;
+    } else if (this.distScore >= 40 && this.distScore < 60) {
+      stroke(color("#E5DE21"));
+      scoreTxt = "Ok";
+      okCounter += 1;
+    } else if (this.distScore >= 0 && this.distScore < 40) {
+      stroke(color("#D21212"));
+      scoreTxt = "Oof";
+      oofCounter += 1;
+    }
+
+    text(scoreTxt, this.xPos, this.yPos - 50);
   }
 }

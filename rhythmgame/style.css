@@ -1,7 +1,17 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
 }
 canvas {
   display: block;
 }
+
+/* .menu {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  background
+}
+.buttonContainer {
+} */

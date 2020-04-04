@@ -1,0 +1,476 @@
+{
+  "note": [
+    {
+      "timestamp": "0",
+      "arrow": "left"
+    },
+    {
+      "timestamp": " 137",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 143",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 174",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 187",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 196",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 205",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 223",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 252",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 267",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 275",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 287",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 303",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 333",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 343",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 354",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 374",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 383",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 393",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 402",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 412",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 419",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 429",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 441",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 459",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 479",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 499",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 516",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 534",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 553",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 573",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 593",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 613",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 632",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 649",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 668",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 688",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 708",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 731",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 747",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 767",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 783",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 805",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 826",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 846",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 863",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 880",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 898",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 919",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 937",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 956",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 972",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 973",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 994",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 995",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1013",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1015",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1034",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1035",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1053",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1061",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1072",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1081",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1089",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1099",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1108",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1114",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1123",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1135",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1144",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1152",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1163",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1170",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1182",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1190",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1202",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1211",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1222",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1229",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1241",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1247",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1257",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1265",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1275",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1283",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1294",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1302",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1311",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1320",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1331",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1347",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1359",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1368",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1377",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1383",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1391",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1403",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1411",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1416",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1424",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1433",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1442",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1448",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1457",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1466",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1474",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1483",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1492",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1496",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1506",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1514",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1523",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1528",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1537",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1545",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1550",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1556",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1563",
+      "arrow": "leftArrow"
+    }
+  ]
+}
