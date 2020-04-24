@@ -51,13 +51,13 @@ class tapTarget {
       if (this.xPos < -width) {
         this.alive = false;
       } else {
-        this.xPos -= 10;
+        this.xPos -= 7;
       }
     } else {
       if (this.xPos < 0) {
         this.alive = false;
       } else {
-        this.xPos -= 10;
+        this.xPos -= 7;
       }
     }
   }

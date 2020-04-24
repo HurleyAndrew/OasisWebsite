@@ -7,8 +7,10 @@ class tapperButton {
     this.railID = railID;
     this.tapped = false;
     this.image;
-
+    this.scoreAlive = false;
+    this.scoreAliveTime = 0;
     this.distScore;
+    this.distance;
     if (this.railID == 0) {
       this.image = rightControl;
     } else if (this.railID == 1) {
@@ -27,16 +29,19 @@ class tapperButton {
       y < this.yPos + this.size + 20 &&
       y > this.yPos - this.size - 20
     ) {
-      this.distScore = Math.sqrt(
+      this.distance = Math.sqrt(
         Math.pow(this.xPos - x, 2) + Math.pow(this.yPos - y, 2)
       );
 
-      this.distScore = 100 - this.distScore;
+      this.distScore = 100 - this.distance;
 
       return true;
     } else {
       return false;
     }
+  }
+  getDistance() {
+    return this.distance;
   }
   getScore() {
     return this.distScore;
@@ -51,15 +56,24 @@ class tapperButton {
   display() {
     push();
     if (this.tapped) {
-      this.size += 2;
-      this.displayScore();
+      this.size += 4;
+      this.scoreAlive = true;
       if (this.size >= 85) {
         this.tapped = false;
       }
     }
 
+    if (this.scoreAlive) {
+      this.displayScore();
+      this.scoreAliveTime += 1;
+      // console.log(this.scoreAliveTime);
+      if (this.scoreAliveTime >= 60) {
+        this.scoreAlive = false;
+        this.scoreAliveTime = 0;
+      }
+    }
     if (this.tapped == false) {
-      this.size -= 2;
+      this.size -= 4;
       if (this.size <= 70) {
         this.size = 70;
       }

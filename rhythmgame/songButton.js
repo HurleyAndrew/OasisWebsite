@@ -1,21 +1,26 @@
 class songButton {
-  constructor(x, y, text, song, json) {
+  constructor(x, y, text, song, json, highscore, id, levelColor) {
+    this.id = id;
+    this.levelColor = levelColor;
     this.song = song;
     this.json = json;
     this.text = text;
+    this.highscore = highscore;
     this.tapped = false;
     this.isOpen = true;
     this.xPos = x;
     this.yPos = y;
     this.size = 125;
   }
-
+  getID() {
+    return this.id;
+  }
   isOverlapping(x, y) {
     if (
-      x < this.xPos + this.size &&
-      x > this.xPos - this.size &&
-      y < this.yPos + this.size &&
-      y > this.yPos - this.size
+      x < this.xPos + this.size + 90 &&
+      x > this.xPos - this.size - 90 &&
+      y < this.yPos + this.size - 50 &&
+      y > this.yPos - this.size + 50
     ) {
       return true;
     } else {
@@ -27,7 +32,7 @@ class songButton {
     return this.song;
   }
 
-  getJSON() {
+  getData() {
     return this.json;
   }
   isTapped() {
@@ -45,39 +50,40 @@ class songButton {
 
       stroke(255);
       strokeWeight(6);
-      fill(color("#0A1A0A"));
+      fill(color(this.levelColor));
       rectMode(CENTER);
       rect(
         this.xPos,
         this.yPos,
-        this.size * 3.5,
+        this.size * 3.7,
         this.size + 15,
         this.size + 15
       );
-      // ellipse(this.xPos - this.size, this.yPos, this.size - 40, this.size - 40);
-      fill(255);
-      noStroke();
-      textFont(rubik);
-      textSize(22);
-      textAlign(CENTER);
-      text(this.text, this.xPos, this.yPos + 10);
 
-      pop();
-    } else {
-      push();
-
-      stroke(255);
-      strokeWeight(6);
-      fill(color("#0A1A0A"));
-      rectMode(CENTER);
-      rect(this.xPos, this.yPos, this.size * 3.35, this.size, this.size);
-      // ellipse(this.xPos - this.size, this.yPos, this.size - 40, this.size - 40);
       fill(255);
       noStroke();
       textFont(rubik);
       textSize(20);
       textAlign(CENTER);
-      text(this.text, this.xPos, this.yPos + 10);
+      text(this.text, this.xPos, this.yPos);
+      textAlign(LEFT);
+      text(this.highscore, this.xPos + 250, this.yPos);
+      pop();
+    } else {
+      push();
+      stroke(255);
+      strokeWeight(6);
+      fill(color(this.levelColor));
+      rectMode(CENTER);
+      rect(this.xPos, this.yPos, this.size * 3.45, this.size, this.size);
+      fill(255);
+      noStroke();
+      textFont(rubik);
+      textSize(18);
+      textAlign(CENTER);
+      text(this.text, this.xPos, this.yPos);
+      textAlign(LEFT);
+      text(this.highscore, this.xPos + 250, this.yPos);
       pop();
     }
   }

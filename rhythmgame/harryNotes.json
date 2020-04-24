@@ -1,1268 +1,1294 @@
 {
   "note": [
+
     {
-      "timestamp": " 499",
+      "timestamp": " 0",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 536",
+      "timestamp": " 70",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 567",
+      "timestamp": " 110",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 604",
+      "timestamp": " 133",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 638",
+      "timestamp": " 179",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 675",
+      "timestamp": " 215",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 710",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 742",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 814",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 851",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 887",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 926",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 963",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 1000",
+      "timestamp": " 247",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 1031",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 1067",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 1104",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": "1139",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "1175",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "1212",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "1246",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 1280",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 1283",
+      "timestamp": " 274",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 1314",
+      "timestamp": " 300",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 1315",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 1347",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 1347",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 1385",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 1385",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 1422",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 1423",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 1460",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 1460",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 1496",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 1496",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 1531",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 1531",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 1568",
+      "timestamp": " 328",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 1569",
-      "arrow": "rightArrow"
+      "timestamp": " 365",
+      "arrow": "leftArrow"
     },
     {
-      "timestamp": " 1600",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 1601",
+      "timestamp": " 398",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 1631",
+      "timestamp": " 424",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 448",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 1632",
+      "timestamp": " 472",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 509",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 1667",
+      "timestamp": " 545",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 571",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 596",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 615",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 653",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 1668",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 1704",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 1736",
+      "timestamp": " 690",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 1772",
+      "timestamp": " 716",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 1805",
+      "timestamp": " 761",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 801",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 838",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 863",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 1841",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 1878",
+      "timestamp": " 884",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 1910",
+      "timestamp": " 909",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 1944",
+      "timestamp": " 950",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 988",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1013",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 1982",
+      "timestamp": " 1039",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1059",
       "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1096",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1132",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1157",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1183",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1200",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1239",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1279",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1313",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1350",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1388",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1425",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1463",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1500",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1542",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1575",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1576",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1613",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1650",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1650",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1686",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1723",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1724",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1760",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1797",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 1833",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1869",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1907",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 1945",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 1983",
+      "arrow": "leftArrow"
     },
     {
       "timestamp": " 2019",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 2054",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 2052",
-      "arrow": "rightArrow"
+      "timestamp": " 2088",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": " 2084",
+      "timestamp": " 2127",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 2122",
+      "timestamp": " 2166",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 2202",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 2157",
+      "timestamp": " 2239",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 2273",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": "2190",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 2223",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": "2260",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 2295",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": "2326",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 2366",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": "2402",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 2434",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": "2464",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 2503",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 2538",
+      "timestamp": " 2311",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": "2576",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 2612",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 2646",
+      "timestamp": " 2349",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 2680",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 2715",
+      "timestamp": " 2385",
       "arrow": "upArrow"
     },
     {
-      "timestamp": "2750",
-      "arrow": "downArrow"
+      "timestamp": " 2419",
+      "arrow": "rightArrow"
     },
     {
-      "timestamp": " 2783",
+      "timestamp": " 2420",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 2814",
+      "timestamp": " 2421",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 2457",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 2493",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 2528",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 2564",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 2850",
+      "timestamp": " 2565",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 2870",
+      "timestamp": " 2566",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 2919",
+      "timestamp": " 2604",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 2640",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 2671",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 2710",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 2957",
+      "timestamp": " 2710",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 2991",
+      "timestamp": " 2711",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 3041",
+      "timestamp": " 2749",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 2784",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 2819",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 2854",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 3058",
+      "timestamp": " 2855",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 3091",
+      "timestamp": " 2855",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 3122",
+      "timestamp": " 2890",
+      "arrow": "downArrow"
+    },
+    {
+      "timestamp": " 2920",
+      "arrow": "downArrow"
+    },
+    {
+      "timestamp": " 2961",
+      "arrow": "downArrow"
+    },
+    {
+      "timestamp": " 3000",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 3036",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 3070",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 3102",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 3138",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 3174",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 3211",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 3246",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 3279",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 3160",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 3178",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 3194",
+      "timestamp": " 3315",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": "3214",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 3229",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": "3265",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 3375",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 3376",
+      "timestamp": " 3352",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 3376",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": "3406",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "3438",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "3473",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 3503",
+      "timestamp": " 3390",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 3504",
+      "timestamp": " 3425",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 3504",
+      "timestamp": " 3462",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 3498",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 3531",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 3569",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": "3537",
-      "arrow": "downArrow"
+      "timestamp": " 3605",
+      "arrow": "leftArrow"
     },
     {
-      "timestamp": "3573",
-      "arrow": "downArrow"
+      "timestamp": " 3638",
+      "arrow": "leftArrow"
     },
     {
-      "timestamp": "3606",
-      "arrow": "downArrow"
+      "timestamp": " 3673",
+      "arrow": "leftArrow"
     },
     {
-      "timestamp": " 3639",
+      "timestamp": " 3707",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 3639",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 3640",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": "3673",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "3706",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "3738",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 3772",
+      "timestamp": " 3744",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 3773",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 3773",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": "3807",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "3840",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "3874",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 3905",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 3906",
+      "timestamp": " 3779",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 3906",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": "3941",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "3972",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "4004",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 4034",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 4035",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 4036",
+      "timestamp": " 3816",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": "4067",
-      "arrow": "downArrow"
+      "timestamp": " 3852",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": "4099",
-      "arrow": "downArrow"
+      "timestamp": " 3889",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": "4134",
-      "arrow": "downArrow"
+      "timestamp": " 3925",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": " 4167",
-      "arrow": "rightArrow"
+      "timestamp": " 3961",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": " 4168",
+      "timestamp": " 3995",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 4032",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 4065",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 4168",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": "4198",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "4235",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "4269",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 4299",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 4333",
+      "timestamp": " 4100",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 4362",
+      "timestamp": " 4137",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 4397",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 4429",
+      "timestamp": " 4173",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 4463",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 4494",
+      "timestamp": " 4208",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 4526",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 4560",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 4593",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 4626",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 4658",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 4692",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 4722",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": "4754",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "4788",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "4821",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "4853",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "4887",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "4920",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 4947",
+      "timestamp": " 4245",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 4948",
+      "timestamp": " 4283",
+      "arrow": "downArrow"
+    },
+    {
+      "timestamp": " 4316",
+      "arrow": "downArrow"
+    },
+    {
+      "timestamp": " 4351",
+      "arrow": "downArrow"
+    },
+    {
+      "timestamp": " 4387",
+      "arrow": "downArrow"
+    },
+    {
+      "timestamp": " 4424",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 4976",
+      "timestamp": " 4458",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 4461",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 5011",
+      "timestamp": " 4501",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 4532",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 4565",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 5046",
+      "timestamp": " 4603",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 5074",
+      "timestamp": " 4637",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 4676",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 4712",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 5075",
+      "timestamp": " 4713",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 4714",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 5110",
+      "timestamp": " 4747",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 4784",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 4819",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 4855",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 4856",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 4857",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 4891",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 4926",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 4960",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 4997",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 4997",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 4998",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 5032",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 5069",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 5102",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 5138",
       "arrow": "upArrow"
     },
     {
       "timestamp": " 5139",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 5171",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 5202",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 5203",
+      "timestamp": " 5139",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 5234",
+      "timestamp": " 5174",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 5266",
+      "timestamp": " 5211",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 5245",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 5281",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 5266",
+      "timestamp": " 5281",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 5282",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 5298",
+      "timestamp": " 5315",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 5330",
+      "timestamp": " 5348",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 5384",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 5422",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 5422",
       "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 5331",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 5360",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 5393",
-      "arrow": "upArrow"
     },
     {
       "timestamp": " 5423",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 5451",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 5452",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 5483",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 5484",
+      "timestamp": " 5456",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 5517",
+      "timestamp": " 5489",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 5517",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 5550",
+      "timestamp": " 5490",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 5551",
+      "timestamp": " 5524",
       "arrow": "upArrow"
     },
     {
-      "timestamp": "5583",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "5613",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "5647",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "5675",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 5704",
+      "timestamp": " 5559",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 5737",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 5775",
+      "timestamp": " 5559",
       "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 5594",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 5629",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 5630",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 5665",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 5698",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 5699",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 5731",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 5768",
+      "arrow": "upArrow"
     },
     {
       "timestamp": " 5801",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 5835",
+      "arrow": "downArrow"
+    },
+    {
+      "timestamp": " 5867",
+      "arrow": "downArrow"
+    },
+    {
+      "timestamp": " 5904",
+      "arrow": "downArrow"
+    },
+    {
+      "timestamp": " 5939",
+      "arrow": "downArrow"
+    },
+    {
+      "timestamp": " 5974",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 6006",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 6044",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 6078",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 6111",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 5828",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 5866",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 5894",
+      "timestamp": " 6146",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 5924",
+      "timestamp": " 6180",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 5955",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 5988",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": "6019",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "6049",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 6081",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 6110",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 6139",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 6172",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 6203",
+      "timestamp": " 6217",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 6233",
+      "timestamp": " 6253",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": "6265",
-      "arrow": "downArrow"
+      "timestamp": " 6253",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": "6295",
-      "arrow": "downArrow"
+      "timestamp": " 6288",
+      "arrow": "leftArrow"
     },
     {
-      "timestamp": " 6324",
+      "timestamp": " 6289",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 6322",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 6357",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 6393",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 6393",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 6540",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 6354",
+      "timestamp": " 6541",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 6384",
+      "timestamp": " 6683",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 6684",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 6413",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 6446",
+      "timestamp": " 6684",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 6477",
-      "arrow": "upArrow"
+      "timestamp": " 6835",
+      "arrow": "downArrow"
     },
     {
-      "timestamp": " 6582",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 6734",
+      "timestamp": " 6836",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": "6875",
-      "arrow": "downArrow"
+      "timestamp": " 6837",
+      "arrow": "leftArrow"
     },
     {
-      "timestamp": " 7022",
+      "timestamp": " 6984",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 6985",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 7055",
+      "timestamp": " 6985",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 7019",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 7083",
+      "timestamp": " 7020",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 7129",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 7112",
+      "timestamp": " 7129",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 7130",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 7162",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 7163",
       "arrow": "upArrow"
     },
     {
-      "timestamp": "7141",
-      "arrow": "downArrow"
+      "timestamp": " 7270",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": "7173",
-      "arrow": "downArrow"
+      "timestamp": " 7309",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": "7205",
-      "arrow": "downArrow"
+      "timestamp": " 7345",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": "7232",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 7262",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 7296",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 7327",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 7356",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 7386",
-      "arrow": "leftArrow"
+      "timestamp": " 7380",
+      "arrow": "upArrow"
     },
     {
       "timestamp": " 7414",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 7443",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 7473",
-      "arrow": "leftArrow"
-    },
-    {
-      "timestamp": " 7505",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 7532",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 7562",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 7591",
+      "timestamp": " 7447",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 7622",
+      "timestamp": " 7479",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 7513",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 7548",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 7652",
-      "arrow": "rightArrow"
+      "timestamp": " 7548",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": " 7683",
+      "timestamp": " 7549",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 7709",
+      "timestamp": " 7584",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 7618",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 7654",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 7689",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 7690",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 7738",
+      "timestamp": " 7691",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 7770",
-      "arrow": "leftArrow"
+      "timestamp": " 7722",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": " 7801",
+      "timestamp": " 7758",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 7790",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 7827",
       "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 7827",
+      "arrow": "upArrow"
     },
     {
       "timestamp": " 7828",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": " 7859",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 7887",
+      "timestamp": " 7860",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 7917",
+      "timestamp": " 7896",
       "arrow": "upArrow"
     },
     {
-      "timestamp": "7947",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "7977",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 8006",
+      "timestamp": " 7931",
       "arrow": "upArrow"
     },
     {
-      "timestamp": "8037",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 8067",
+      "timestamp": " 7966",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 8097",
-      "arrow": "upArrow"
-    },
-    {
-      "timestamp": "8098",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "8135",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "8164",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "8192",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 8221",
+      "timestamp": " 7967",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": "8222",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "8253",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "8284",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "8313",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 8344",
+      "timestamp": " 7967",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": "8345",
-      "arrow": "downArrow"
+      "timestamp": " 7999",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": "8376",
-      "arrow": "downArrow"
+      "timestamp": " 8031",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": "8406",
-      "arrow": "downArrow"
+      "timestamp": " 8066",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": "8435",
-      "arrow": "downArrow"
+      "timestamp": " 8101",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": "8466",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 8467",
+      "timestamp": " 8101",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": "8500",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 8501",
+      "timestamp": " 8102",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": "8530",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 8530",
+      "timestamp": " 8133",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 8562",
+      "timestamp": " 8169",
       "arrow": "upArrow"
     },
     {
-      "timestamp": "8562",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 8591",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 8623",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": "8652",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 8653",
+      "timestamp": " 8202",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 8684",
+      "timestamp": " 8236",
       "arrow": "upArrow"
     },
     {
-      "timestamp": "8685",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 8717",
+      "timestamp": " 8237",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": "8718",
-      "arrow": "downArrow"
+      "timestamp": " 8238",
+      "arrow": "rightArrow"
     },
     {
-      "timestamp": "8745",
-      "arrow": "downArrow"
+      "timestamp": " 8270",
+      "arrow": "upArrow"
     },
     {
-      "timestamp": " 8746",
+      "timestamp": " 8309",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 8338",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 8373",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 8374",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 8374",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": "8776",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "8806",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 8835",
+      "timestamp": " 8405",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 8866",
+      "timestamp": " 8438",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 8900",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 8932",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 8960",
+      "timestamp": " 8471",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 8971",
+      "timestamp": " 8503",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": " 8987",
+      "timestamp": " 8504",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 9001",
-      "arrow": "rightArrow"
+      "timestamp": " 8505",
+      "arrow": "leftArrow"
     },
     {
-      "timestamp": " 9014",
+      "timestamp": " 8539",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 9033",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 9051",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 9064",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": "9080",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": "9092",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 9103",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 9119",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": "9133",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 9149",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": "9161",
-      "arrow": "downArrow"
-    },
-    {
-      "timestamp": " 9174",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 9194",
+      "timestamp": " 8574",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 9224",
-      "arrow": "rightArrow"
-    },
-    {
-      "timestamp": " 9254",
+      "timestamp": " 8608",
       "arrow": "upArrow"
     },
     {
-      "timestamp": " 9286",
+      "timestamp": " 8644",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 8674",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 8709",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 8743",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 8778",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 8812",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 8845",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 8877",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 8912",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 8945",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 8975",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 9015",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 9049",
       "arrow": "rightArrow"
     },
     {
-      "timestamp": "9316",
+      "timestamp": " 9079",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 9112",
       "arrow": "downArrow"
     },
     {
-      "timestamp": "9348",
+      "timestamp": " 9146",
       "arrow": "downArrow"
+    },
+    {
+      "timestamp": " 9180",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 9213",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 9247",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 9281",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 9316",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 9349",
+      "arrow": "leftArrow"
     },
     {
       "timestamp": " 9381",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 9416",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 9450",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 9484",
       "arrow": "leftArrow"
     },
     {
-      "timestamp": " 9414",
+      "timestamp": " 9521",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 9550",
+      "arrow": "downArrow"
+    },
+    {
+      "timestamp": " 9585",
+      "arrow": "leftArrow"
+    },
+    {
+      "timestamp": " 9616",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 9650",
+      "arrow": "rightArrow"
+    },
+    {
+      "timestamp": " 9663",
+      "arrow": "upArrow"
+    },
+    {
+      "timestamp": " 9680",
       "arrow": "leftArrow"
     }
   ]
+
 }
